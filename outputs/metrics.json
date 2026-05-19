@@ -1,0 +1,23 @@
+{
+  "model": {
+    "auc_train": 0.750854401004805,
+    "auc_test": 0.7452846156879488,
+    "n_train": 212621,
+    "n_test": 53156,
+    "default_rate_train": 0.2013018469483259,
+    "default_rate_test": 0.2013131161110693
+  },
+  "policy": {
+    "n_loans": 265777,
+    "naive_profit": 610110760.2099999,
+    "naive_approval_rate": 1.0,
+    "naive_default_rate": 0.20130410080631506,
+    "optimized_profit": 644588292.1875,
+    "optimized_approval_rate": 0.9491490986804727,
+    "optimized_default_rate": 0.1814859154371249,
+    "extra_profit_total": 34477531.97750008,
+    "extra_profit_per_1000": 129723.53505946745,
+    "optimized_profit_per_1000": 2425297.494469047,
+    "naive_profit_per_1000": 2295573.9594095796
+  }
+}

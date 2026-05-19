@@ -1,0 +1,9 @@
+{
+  "fixed_threshold": {
+    "threshold": 0.51,
+    "profit": 634275928.2449999,
+    "n_approved": 253741,
+    "default_rate": 0.18161826429311778
+  },
+  "policy": "approve iff expected_profit > 0 (per-loan break-even)"
+}
