@@ -14,6 +14,9 @@
 > blanket approval. Exact numbers are written to `outputs/metrics.json` after
 > training; the dashboard shows them at the top.
 
+## Live Demo
+👉 **[credit-decision-intelligence-system.streamlit.app](https://credit-decision-intelligence-system.streamlit.app/)**
+
 This is built around the cost matrix, not AUC:
 
 |                    | Actual: Good                | Actual: Default          |
