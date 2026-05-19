@@ -1,0 +1,23 @@
+# Data + artifacts
+data/*.csv
+data/*.zip
+outputs/*.pkl
+outputs/*.parquet
+outputs/*.json
+outputs/figures/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

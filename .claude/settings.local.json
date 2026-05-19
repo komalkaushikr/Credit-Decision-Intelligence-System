@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($base = \"E:\\\\Desktop\\\\desktop 101\\\\Credit-Decision-Intelligence-System\"; @\\(\"data\",\"notebooks\",\"src\",\"outputs\",\"outputs\\\\figures\",\"dashboard\"\\) | ForEach-Object { New-Item -ItemType Directory -Force -Path \\(Join-Path $base $_\\) | Out-Null }; Get-ChildItem $base -Directory | Select-Object Name)",
+      "PowerShell($base = \"E:\\\\Desktop\\\\desktop 101\\\\Credit-Decision-Intelligence-System\"; Move-Item -Path \\(Join-Path $base 'profit_credit_system \\(1\\).ipynb'\\) -Destination \\(Join-Path $base 'notebooks\\\\99_original_full_build.ipynb'\\) -Force; Get-ChildItem \\(Join-Path $base 'notebooks'\\) | Select-Object Name)",
+      "PowerShell(python -c \"import sys; sys.path.insert\\(0,'.'\\); from src import config, metrics; cm = metrics.per_loan_cost_matrix\\(15000, 13, 36\\); print\\('FP cost:', round\\(cm.fp_cost,2\\), '/ FN cost:', round\\(cm.fn_cost,2\\)\\); print\\('Optimal threshold \\(13% / 36mo\\):', round\\(metrics.optimal_threshold_analytical\\(13,36\\),4\\)\\); print\\('Break-even \\(13% / 36mo\\):', round\\(metrics.breakeven_pd\\(13,36\\),4\\)\\)\")"
+    ]
+  }
+}
